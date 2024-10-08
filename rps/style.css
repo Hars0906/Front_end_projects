@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    border: 0;
+    padding:0;
+}
+.heading
+{
+    height:50px;
+    background-color: rgb(9, 3, 54);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+.pics
+{
+    display: flex;
+    height: 350px;
+}
+.gmpic img
+{
+    height:250px;
+    width: 250px;
+   object-fit: cover;
+   border-radius: 50%;
+   box-sizing: border-box; /* Include border in element's width and height */
+}
+.gmpic 
+{
+    margin-top: 50px;
+    margin-left: 190px;
+    gap: 50px; 
+    
+}
+.gmpic img:hover
+{
+    border: 2px solid black;
+}
+.dashboard {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.scores
+{
+    margin:40px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:190px;
+}
+.scores p
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: navy
+}
+.scoretxt
+{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:100px;
+}
+.scoretxt p{
+    display: inline;
+    background-color: powderblue;
+    color: navy;
+    font-family: cursive;
+    border-radius: 10%;
+}
+.downtxt
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px; 
+    
+}
+.downtxt p{
+    display: inline;
+    background-color: aqua;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family:cursives
+}
